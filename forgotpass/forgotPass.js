@@ -13,7 +13,7 @@ form.addEventListener('submit', (e) => {
     axios.post("http://localhost:3000/forgotPass/pass", obj).then((result) => {
         console.log(result.data);
         alert(result.data.message);
-        window.location.href = '../login/login.htm'
+        window.location.href = '../login/login.html'
         resetForm();
     }).catch((err) => {
         console.log(err);

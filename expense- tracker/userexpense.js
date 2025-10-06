@@ -71,7 +71,7 @@ if (logoutButton) {
     logoutButton.addEventListener('click', () => {
         alert('Logging out...');
         localStorage.removeItem('token');
-        window.location.href = '../login/login.htm';
+        window.location.href = '../login/login.html';
     });
 }
 

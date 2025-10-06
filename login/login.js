@@ -26,7 +26,7 @@ function saveUser(e) {
             if(result.status === 200){
                 alert("login successfully");
                 localStorage.setItem('token', result.data.token);
-                window.location.href = '../signup/expensedemo.htm'
+                window.location.href = '../expense- tracker/userexpense.html'
                 resetForm();
             }
         })
